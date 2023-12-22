@@ -7,6 +7,7 @@ font-family: Arial, Helvetica, sans-serif;
 body{
     background-color: #292729;
 }
+
 h1, h2, h3, h4, h5, h6{
 color: #F4F2e1;
 }
@@ -24,10 +25,6 @@ header{
     border-bottom: 1px solid #6164A8;
 }
 
-main{
-    display:flex; 
-}
-
 footer{
     display:flex;
     justify-content: space-between;
@@ -43,6 +40,9 @@ nav {
     padding: 24px;
 }
 
+a{
+    text-decoration: none;
+}
 .navbutton{
     text-decoration: none;
     padding: 2px 8px 2px 8px;
@@ -107,7 +107,113 @@ nav {
     padding-left: 24px;
 }
 
+.box{
+    margin: 12px;
+    padding: 6px;
+    width: 320px;
+    height: 24px;
+    border-radius: 3px;
+    color: #292729;
+    background-color: #F4F2e1;
+    border:solid 1px #6164A8;
+}
 
+.signup
+{
+    margin: 12px;
+    padding: 9px;
+    width: 128px;
+    height: 24px;
+    background-color: #F4F2e1;
+    color: #6164A8;
+    border-radius: 3px;
+}
+.signup:hover 
+{
+    background-color: #6164A8;
+    color:#F4F2e1;
+}
+
+.indent
+{
+    margin: 12px;
+    text-indent: 24px;
+    width: 768px;
+}
+
+.tim1
+{
+    width: 256px;
+}
+
+.aboutmargin
+{
+    margin: 24px;
+}
+
+.designtxt
+{
+    text-indent: 128px;
+}
+.card
+{
+    width: 256px;
+    margin-top:12px;
+    margin-bottom: 12px;
+    padding:12px;
+    border-radius: 5px;
+    background-color: #292729;
+}
+
+.card:hover
+{
+    background-color: #6164A8;
+}
+
+.cardimg
+{
+    width: 256px;
+}
+
+.container
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+.project
+{
+    width:364px;
+    height:max-content;
+    margin-top:12px;
+    margin-bottom: 12px;
+    padding:12px;
+    border-radius: 5px;
+    background-color: #292729;
+}
+
+.prjimg
+{
+    width:364px;
+}
+
+.prjtxt
+{
+    margin-top:48px;
+    margin-left:24px;
+    text-align: justify;
+}
+
+.prjcont
+{   
+    display:flex;
+    justify-content: space-between;
+    margin-left: 128px;
+    margin-right: 128px;}
 /* Design Exclusive Css */
 
 /* About Exclusive Css */
+
